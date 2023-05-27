@@ -1,79 +1,194 @@
-body{
-    background-color: #2F3E43;
-    
+ body{
+   background-color: #2F3E43;
  }
- .fa-heart{
-    color:#FB0000;
+ .main{
+   background-color:#95B0B6 ;
+   width: 420px;
+   height: 120px;
+   border-radius: 2px;
+   margin: 5px 0px;
+   padding: 5px 0px;
  }
- 
- .rect{
-    display: flex;
-     justify-content: space-between;
-     align-items: end;
-    margin: 10px;
-    width: 400px;
-    height: 150px;
-    background-color: #95B0B6;
-    border-radius: 3px  ;
-    gap:5px;
-    
+ .top{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin: 5px 5px;
+   padding: 0px 5px;
  }
- .grid1{
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+ .logo{
+   height: 60px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding: 0px 5px;
+}
+.logoname{
+   margin: 5px;
+   color: #01AEC8;
+   border: none;
+}
+ .searchandchat{
+   display: flex;
+   justify-content:end;
+   align-items: center; 
  }
-  
- .rect2{
-    display: flex;
-    margin: 10px;
-    width: 400px;
-    height: 100px;
-    background-color: #95B0B6;
-    border-radius: 3px  ;
-    gap: 5px;
-    
+ .searchicon{
+  padding: 10px 10px; 
  }
- .grid3{
-    display: flex;
-     border-radius: 2%;
-     background-color:#0b1f2d ;
-     border: 2px solid rgb(0, 0, 0);
-     width: 150px;
-     height: 40px;
+ .messageicon{
+  padding: 5px 5px;
  }
- .container{
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+ .menu{
+   padding :5px 10px;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
  }
- 
-
- .rect3{
- 
-    
-   margin: 10px;
-   width: 400px;
+ .update{
+   background-color:#95B0B6 ;
+   width: 420px;
+   height: 85px;
+   border-radius: 2px;
+   padding: 9px 0px;
+ }
+ .bar{
+   font-size: 15px;
+   margin: 8px;
+ }
+ .text{
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 5px;
+ }
+ #text2{
+   width:380px;
+   border-radius: 50px;
+   background-color:#505050;
+   margin: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   font-size: 18px;
+   border: none;
+ }
+ .updatebar{
+   display: flex;
+   justify-content: space-around;
+   margin: 5px 0px;
+ }
+ .media{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 30px;
+   width: 140px;
+   border: 2px solid black;
+ }
+ .live{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 30px;
+   width: 140px;
+   border: 2px solid black;
+ }
+ .fa-video{
+   color: red;
+ }
+ .status{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 30px;
+   width: 140px;
+   border: 2px solid black;
+ }
+ .post1{
+   background-color:#95B0B6 ;
+   width: 420px;
    height: 500px;
-   background-color: #95B0B6;
-   border-radius: 3px  ;
-   gap: 5px;
-   
+   border-radius: 2px;
+   margin: 5px 0px;
+   padding: 5px 0px;
+ }
+ .toprect{
+   margin: 5px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 55px;
+ }
+ .pf{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 75px;
+   padding: 0px 10px; 
+ }
+ .nameandtime{
+   width: 335px;
+ }
+ .time{
+   font-size: 10px;
+   padding: 0px 10px;
+ }
+ .infoicon{
+   width: 40px;
+   height: 75px;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+ }
+ .space{
+   display: flex;
+   padding: 4px 4px;
+ }
+.caption{
+  padding: 0px 4px;
+  display: flex;
+  justify-content: start;
+  height: 20px;
+  width: 360px; 
 }
- 
-.rect4{
- 
-   margin: 10px;
-   width: 400px;
-   height: 150px;
-   background-color: #95B0B6;
-   border-radius: 3px  ;
-   gap: 5px;
-   
+.image{
+  padding: 0px 4px;
+  display: flex;
+  justify-content: start;
 }
- 
- 
-  
-
+.reactbar{
+  height: 35px;
+  width: 330px;
+  padding: 4px 4px;
+  margin: 4px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+.heart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 4px;
+}
+.heartcount{
+  font-size: 12px;
+  padding: 0px 4px;
+}
+ .blank{
+    width: 50px;
+    height: 410px;
+  }
+  .fa-heart{
+    color: red;
+  }
+ .post2{
+   background-color:#95B0B6 ;
+   width: 420px;
+   height: 500px;
+   border-radius: 2px;
+   margin: 5px 0px;
+   padding: 5px 0px;
+ }
